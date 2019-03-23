@@ -1,0 +1,55 @@
+.img{
+width: 100%;
+height: 550px;
+z-index: -2;
+position: absolute;
+top: -80px;
+}
+.banner{
+    height: 500px;
+}
+.bannerBlock{
+    height: 550px;
+    margin: auto;
+    color: white;
+
+}
+.bannerHeading{
+    font-size: 40px;
+    font-weight: normal;
+    text-shadow: 2px 2px 3px black;
+    height: 60px;
+    position: relative;
+    top: 80px;
+}
+.bannerPara{
+    text-shadow: 2px 2px 3px black;
+    letter-spacing: 1px;
+    position: relative;
+    top: 80px;
+}
+.btnSendMoney{
+    position: relative;
+    top: 80px;
+    padding: 10px 100px;
+    border-radius: 25px;
+    background-color: #0070ba;
+    border: none;
+    color: white;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.bannerBottom{
+    height: 80px;
+    width: 300px;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 2px 2px 3px black;
+    margin-top: 10px;
+    font-size: 14px;
+    position: relative;
+    top: 80px;
+}
+.content{
+    margin: auto;
+}

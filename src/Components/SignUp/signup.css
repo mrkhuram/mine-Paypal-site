@@ -1,0 +1,75 @@
+.signUpIndex{
+    background-image: url(http://yesofcorsa.com/wp-content/uploads/2017/01/4K-Lights-Wallpaper.jpg);
+    z-index: 1;
+    position: relative;
+    height: 900px;
+    top: -80px;
+    box-shadow: 0px 5px 5px 3px #ccc; 
+}
+.signUpFormOuter{
+    width: 45%;
+    background-color: white;
+    position: relative;
+    top: 100px;
+    height: 700px;
+    /* border: 1px solid #4b4a4a; */
+    margin: auto;
+
+}
+.vx_text-2 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 300;
+    text-transform: none;
+    font-family: 'PayPal-Sans-Big', Helvetica Neue, Arial, sans-serif;
+}
+.headerWrapper {
+    text-align: center;
+}
+.headerWrapperOuter{
+    width: 400px;
+    margin: auto;
+    position: relative;
+    top: 40px;
+}
+.signUpForm{
+    position: relative;
+    top: 35px;
+    left: 110px;
+}
+.f1{
+    padding: 0 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 390px;
+    height: 50px;
+    font-size: 20px;
+}
+.f1:active{
+    border: 1px solid rgb(102, 102, 148);
+}
+.f1:hover{
+    text-align: left;
+}
+.f1::placeholder{
+    position: relative;
+    left: 20px;
+    color: gray;
+    font-size: 16px
+}
+.checkbox{
+    margin-top: 30px
+}
+.signUpBtn{
+    background: transparent;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+.signUpBtn:active{
+    border: none;
+}
+.error{
+    border: 1.5px solid red;
+}

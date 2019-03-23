@@ -1,0 +1,815 @@
+.hero-bg {
+}
+.outerBanner3{
+    width: 100%;
+    height: 450px;
+}
+.content3{
+    margin: auto;
+}
+
+.in-page-anchors {
+    height: 72px;
+
+}
+
+.in-page-anchors__nav {
+    height: 71px
+}
+
+.in-page-anchors__nav--sticky {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3
+}
+
+.in-page-anchors__container {
+    height: inherit;
+    margin: 0 auto
+}
+
+@media (min-width:1024px) {
+    .in-page-anchors__container {
+        max-width: 1192px;
+        padding-left: 48px;
+        padding-right: 48px
+    }
+}
+
+.in-page-anchors__flex-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    height: inherit;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.in-page-anchors__flex-wrapper--button-left {
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse
+}
+
+.in-page-anchors hr {
+    position: relative
+}
+
+.in-page-anchors__dropdown-button {
+    background: 0 0;
+    border: 0;
+    height: 30px;
+    left: 24px;
+    position: relative;
+    top: 22px;
+    transition: transform .3s ease-out;
+    width: 30px
+}
+
+@media (min-width:576px) {
+    .in-page-anchors__dropdown-button {
+        left: 36px
+    }
+}
+
+.in-page-anchors__dropdown-button:focus {
+    outline: 0
+}
+
+.in-page-anchors__dropdown-button::after {
+    content: '';
+    text-indent: -999px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    border: 1px solid #cbd2d6;
+    border-top: 0;
+    border-left: 0;
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    transition: all .3s ease-out;
+    overflow: hidden;
+    border-width: 2px;
+    height: 20px;
+    left: 6px;
+    top: 0;
+    transition: rotate .3s ease-out;
+    width: 20px
+}
+
+.in-page-anchors__dropdown-button__text {
+    display: inline-block;
+    height: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 0
+}
+
+.in-page-anchors__dropdown-button__label {
+    font-size: 20px;
+    font-size: 1.33333333rem;
+    line-height: 1.5;
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+    left: 44px;
+    position: relative;
+    top: 23px
+}
+
+@media (min-width:576px) {
+    .in-page-anchors__dropdown-button__label {
+        left: 56px
+    }
+}
+
+.in-page-anchors__dropdown-button--show-x {
+
+    background-size: 28px;
+
+    background-repeat: no-repeat;
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.in-page-anchors__dropdown-button--show-x::after {
+    border: none
+}
+
+.in-page-anchors__cta {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    max-height: 48px;
+    min-width: 234px;
+    right: 20px;
+    position: absolute
+}
+
+@media (min-width:1024px) {
+    .in-page-anchors__cta {
+        position: relative;
+        right: initial
+    }
+}
+
+.no-flexbox .in-page-anchors__cta {
+    bottom: 20px;
+    float: right;
+    z-index: 1
+}
+
+.js .in-page-anchors__cta {
+    max-height: none
+}
+
+.in-page-anchors__link-list {
+    animation: 1s linear 0s 1 remove-box-shadow;
+    background-color: #fff;
+    color: #0070ba;
+    margin: 0;
+    max-height: 0;
+    overflow-y: hidden;
+    position: relative;
+    top: 35px;
+    transition: max-height .3s ease-in-out;
+    width: 100%;
+    z-index: 1
+}
+
+.no-flexbox .in-page-anchors__link-list {
+    position: relative;
+    top: 36px
+}
+
+@media (min-width:1024px) {
+    .in-page-anchors__link-list {
+        -ms-flex-align: center;
+        align-items: center;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        left: 0;
+        max-height: 800px;
+        padding-left: 0;
+        position: relative;
+        top: 0;
+        width: auto
+    }
+}
+
+.in-page-anchors__link-list--text-right {
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+
+.in-page-anchors__link-list--slide-down {
+    animation: none;
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, .1);
+    max-height: 800px
+}
+
+@media (min-width:1024px) {
+    .in-page-anchors__link-list--slide-down {
+        box-shadow: none
+    }
+}
+
+.in-page-anchors__links-container {
+    display: inline-block;
+    position: relative;
+    width: 100%
+}
+
+.no-webgl .in-page-anchors__links-container {
+    width: auto
+}
+
+@media (min-width:1024px) {
+       .in-page-anchors__links-container {
+        display: -ms-inline-flexbox;
+        display: inline-flex
+    }
+}
+
+.in-page-anchors__links-container--text-right {
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+
+.in-page-anchors__li {
+    list-style-type: none;
+    padding-left: 24px
+}
+
+@media (min-width:576px) {
+    .in-page-anchors__li {
+        padding-left: 16px
+    }
+}
+
+@media (min-width:1024px) {
+    .in-page-anchors__li {
+        margin-right: 20px;
+        padding-left: 0
+    }
+    .no-flexbox .in-page-anchors__li {
+        display: inline-block
+    }
+}
+
+.in-page-anchors__li:last-child {
+    padding-bottom: 20px
+}
+
+@media (min-width:1024px) {
+    .in-page-anchors__li:last-child {
+        padding-bottom: 0
+    }
+}
+
+.in-page-anchors__link {
+    color: #2c2e2f;
+    display: block;
+    padding: 9px 0 9px 0
+}
+
+@media (min-width:1024px) {
+    .in-page-anchors__link {
+        padding: 0 9px
+    }
+}
+
+.in-page-anchors__link:active,
+.in-page-anchors__link:focus {
+    color: #2c2e2f;
+    text-decoration: none
+}
+
+.in-page-anchors__link:hover {
+    color: #2c2e2f
+}
+
+.in-page-anchors__link--underline:focus {
+    text-decoration: underline
+}
+
+.in-page-anchors__link--selected {
+    color: #0070ba
+}
+
+.in-page-anchors__link--selected:focus,
+.in-page-anchors__link--selected:hover {
+    color: #0070ba;
+    text-decoration: none
+}
+
+.theme-background-color-white {
+    background-color: #fff
+}
+.divider__color {
+    border-bottom: 1px solid #cbd2d6
+}
+
+
+.theme-background-color-white {
+    background-color: #fff
+}
+
+.theme-background-color-white .pypl-heading {
+    color: #4a4a4a
+}
+
+.theme-background-color-white .mpp-data-point {
+    color: #0070ba;
+    box-shadow: 0 0 0 1px #0070ba, 0 0 0 1px #0070ba
+}
+
+.no-boxshadow .theme-background-color-white .mpp-data-point {
+    border: 1px solid #0070ba;
+}
+.pullout {
+    padding: 90px 0;
+}
+
+.row-fluid {
+    background: #fff;
+    position: relative;
+    z-index: 2;
+    transform: translate(0,0);
+}
+.center-text, .expand:after, .main-containers .subContainer, .signup-panel-form, .signup-panel-headline, .smart-banner .span12, .videos-thumbnails .txtOverVideo {
+    text-align: center;
+}
+.white {
+    color: #2c2e2f;
+
+}
+.pulloutHeadline {
+    font-size: 40px;
+    font-size: 2.857rem;
+    line-height: 1.25em;
+    letter-spacing: .02em; 
+}
+.pulloutPara {
+    font-size: 16px;
+    font-size: 1.14285714rem;
+    line-height: 1.5em;
+    padding-top: 25px;
+    padding-bottom: 35px; 
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+}
+/* Custom Logos */
+
+.custom-logos .row-fluid {
+    background-position: 50% 10px;
+}
+.custom-logos {
+    padding: 0 0 90px;
+    height: 300px;
+}
+.containerCentered {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.containerCentered {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    
+}
+.custom-logos .appslogos.bestbuy {
+    background-position: 50% 3px;
+}
+
+.custom-logos .appslogos:nth-child(-n+6) {
+    margin-bottom: 60px;
+}
+
+.custom-logos .bestbuy {
+    background: url(https://www.paypalobjects.com/webstatic/en_US/mktg/wright/buy_onwebsites/buy_onwebsites_logo_sprites3.png) no-repeat;
+    width: 16.5%;
+    height: 60px;
+    float: left;
+    margin-left: 0;
+    margin: 10px 0;
+}
+.custom-logos .diapers {
+    background: url(https://www.paypalobjects.com/webstatic/en_US/mktg/wright/buy_onwebsites/buy_onwebsites_logo_sprites3.png) no-repeat;
+    width: 16.5%;
+    height: 60px;
+    float: left;
+    margin-left: 0;
+    margin: 10px 0;
+}
+.accessAid {
+    padding: 0!important;
+    border: 0!important;
+    width: 1px!important;
+    overflow: hidden;
+}
+.accessAid {
+    position: absolute!important;
+    clip: rect(1px,1px,1px,1px);
+    height: 1px!important;
+}
+.custom-logos .appslogos.diapers {
+    background-position: 50% -60px;
+}
+
+.custom-logos .appslogos:nth-child(-n+6) {
+    margin-bottom: 60px;
+}
+.custom-logos .ebay {
+    background: url(https://www.paypalobjects.com/webstatic/en_US/mktg/wright/buy_onwebsites/buy_onwebsites_logo_sprites3.png) no-repeat;
+    width: 16.5%;
+    height: 60px;
+    float: left;
+    margin-left: 0;
+    margin: 10px 0;
+}
+.custom-logos .hotwire {
+    background: url(https://www.paypalobjects.com/webstatic/en_US/mktg/wright/buy_onwebsites/buy_onwebsites_logo_sprites3.png) no-repeat;
+    width: 16.5%;
+    height: 60px;
+    float: left;
+    margin-left: 0;
+    margin: 10px 0;
+}
+.custom-logos .levis {
+    background: url(https://www.paypalobjects.com/webstatic/en_US/mktg/wright/buy_onwebsites/buy_onwebsites_logo_sprites3.png) no-repeat;
+    width: 16.5%;
+    height: 60px;
+    float: left;
+    margin-left: 0;
+    margin: 10px 0;
+}
+.custom-logos .newegg {
+    background: url(https://www.paypalobjects.com/webstatic/en_US/mktg/wright/buy_onwebsites/buy_onwebsites_logo_sprites3.png) no-repeat;
+    width: 16.5%;
+    height: 60px;
+    float: left;
+    margin-left: 0;
+    margin: 10px 0;
+}
+.custom-logos .nike {
+    background: url(https://www.paypalobjects.com/webstatic/en_US/mktg/wright/buy_onwebsites/buy_onwebsites_logo_sprites3.png) no-repeat;
+    width: 16.5%;
+    height: 60px;
+    float: left;
+    margin-left: 0;
+    margin: 10px 0;
+}
+.custom-logos .appslogos.ebay {
+    background-position: 50% -120px;
+}
+
+.custom-logos .appslogos:nth-child(-n+6) {
+    margin-bottom: 60px;
+}
+.custom-logos .appslogos.hotwire {
+    background-position: 50% -180px;
+}
+
+.custom-logos .appslogos:nth-child(-n+6) {
+    margin-bottom: 60px;
+}
+.custom-logos .appslogos.levis {
+    background-position: 50% -235px;
+}
+
+.custom-logos .appslogos:nth-child(-n+6) {
+    margin-bottom: 60px;
+}
+.custom-logos .appslogos.newegg {
+    background-position: 50% -295px;
+}
+
+.custom-logos .appslogos:nth-child(-n+6) {
+    margin-bottom: 60px;
+}
+.custom-logos .appslogos.nike {
+    background-position: 50% -355px;
+}
+.custom-logos .overstock {
+    background: url(https://www.paypalobjects.com/webstatic/en_US/mktg/wright/buy_onwebsites/buy_onwebsites_logo_sprites3.png) no-repeat;
+    width: 16.5%;
+    height: 60px;
+    float: left;
+    margin-left: 0;
+    margin: 10px 0;
+}
+.custom-logos .appslogos.overstock {
+    background-position: 50% -419px;
+}
+.custom-logos .overstock {
+    background: url(https://www.paypalobjects.com/webstatic/en_US/mktg/wright/buy_onwebsites/buy_onwebsites_logo_sprites3.png) no-repeat;
+    width: 16.5%;
+    height: 60px;
+    float: left;
+    margin-left: 0;
+    margin: 10px 0;
+}
+.custom-logos .appslogos.nike {
+    background-position: 50% -355px;
+}
+.custom-logos .appslogos.target {
+    background-position: 50% -479px;
+}
+
+.custom-logos .target {
+    background: url(https://www.paypalobjects.com/webstatic/en_US/mktg/wright/buy_onwebsites/buy_onwebsites_logo_sprites3.png) no-repeat;
+    width: 16.5%;
+    height: 60px;
+    float: left;
+    margin-left: 0;
+    margin: 10px 0;
+}
+.custom-logos .appslogos.travelocity {
+    background-position: 50% -540px;
+}
+.custom-logos .travelocity {
+    background: url(https://www.paypalobjects.com/webstatic/en_US/mktg/wright/buy_onwebsites/buy_onwebsites_logo_sprites3.png) no-repeat;
+    width: 16.5%;
+    height: 60px;
+    float: left;
+    margin-left: 0;
+    margin: 10px 0;
+}
+.custom-logos .appslogos.ulta {
+    background-position: 50% -600px;
+}
+
+.custom-logos .ulta {
+    background: url(https://www.paypalobjects.com/webstatic/en_US/mktg/wright/buy_onwebsites/buy_onwebsites_logo_sprites3.png) no-repeat;
+    width: 16.5%;
+    height: 60px;
+    float: left;
+    margin-left: 0;
+    margin: 10px 0;
+}
+.custom-logos .appslogos.walmart {
+    background-position: 50% -660px;
+}
+
+.custom-logos .walmart {
+    background: url(https://www.paypalobjects.com/webstatic/en_US/mktg/wright/buy_onwebsites/buy_onwebsites_logo_sprites3.png) no-repeat;
+    width: 16.5%;
+    height: 60px;
+    float: left;
+    margin-left: 0;
+    margin: 10px 0;
+}
+
+
+/* 
+-------------------------------------
+            Steps..... 
+-------------------------------------*/
+
+.row-fluid [class*=span]:first-child {
+    margin-left: 0;
+}
+@media(max-width: 420px){
+    .row-fluid .span4{
+        display: none;
+    }
+}
+.row-fluid .span4 {
+    width: 32%;
+}
+.row-fluid [class*=span] {
+    float: left;
+    margin-left: 2%;
+    min-height: 1px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.steps {
+    padding: 60px 0;
+    color: #666;
+}
+.steps {
+    padding: 35px 0;
+}
+.light {
+    background-color: #f7f9fa;
+    color: #666;
+    /* min-height: 200px; */
+    max-height: 400px;
+}
+.steps-section .circle {
+    font-family: pp-sans-small-regular,Helvetica Neue,Arial,sans-serif;
+    font-weight: 700;
+    padding: 11px 18px;
+}
+
+.circle {
+    border: 1px solid silver;
+    padding: 4px 11px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+.steps-section .step-text {
+    height: 46px;
+}
+
+
+.step-text {
+    display: table-cell;
+    vertical-align: middle;
+    height: 30px;
+    padding: 0;
+    font-size: 1.071rem;
+    line-height: 1.5em;
+    color: #2c2e2f
+}
+.n4, .n4.parallax .parallax-bg {
+    background-image: url(https://www.paypalobjects.com/webstatic/en_US/mktg/wright/buy_onwebsites/buy_onwebsites_wallet2.jpg);
+}
+.lightContent {
+    background-color: #333;
+}
+.lightContent, .lightContent h1, .lightContent h3, .lightContent h2, .lightContent h3, .lightContent h4, .lightContent p, .lightContent a {
+    color: #fff;
+}
+.editorial {
+    min-height: 37.85714285714286em;
+}
+.editorial-bg, .hero-bg {
+    overflow: hidden;
+}
+.editorial-bg, .editorial-bg .parallax-bg {
+    background-size: cover;
+    background-position: 60% center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.row-fluid [class*=span]:first-child {
+    margin-left: 0;
+}
+.editorial-cell {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5em;
+    width: 100%\9;
+    width: 100%;
+}
+.large, h3, html[data-device-type=mobile] .x-large, html[data-device-type=mobile] h2 {
+    font-size: 28px;
+    font-size: 2rem;
+    line-height: 1.25em;
+}
+.large, .medium, .small, h3, h4, h5, h6 {
+    letter-spacing: .01em;
+}
+.editorial p {
+    padding-top: 6px;
+    padding-bottom: 9px;
+}
+
+/* --------------------------
+            Pull Out
+---------------------------- */
+
+.pullout {
+    padding: 90px 0;
+}
+
+.containerCentered {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    
+}
+.span11 {
+    width: 91.5%;
+}
+.row-fluid [class*=span]:first-child.center-block {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+.p2 h2 {
+    font-size: 28px;
+    color: #2c2e2f;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    letter-spacing: .02em;
+    font-family: pp-sans-big-light,Helvetica Neue,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.pulloutPara {
+    font-size: 16px;
+    font-size: 1.14285714rem;
+    line-height: 1.5em;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+hr {
+    background-image: linear-gradient(to right,silver 50%,rgba(255,255,255,0) 40%);
+    background-position: top;
+    background-size: 3px 1px;
+    background-repeat: repeat-x;
+    height: 1px;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+hr {
+    border-left: 0;
+    border-right: 0;
+    margin: 0;
+}
+/* ------------------------------
+            Tabletsss
+--------------------------------- */
+
+
+.c1 {
+    padding-top: 145px;
+}
+
+.c1 {
+    margin-top: 500px;
+}
+.blue {
+    background-color: #009cde;
+    background-image: radial-gradient(circle farthest-side at center bottom,#009cde,#003087 125%);
+}
+.blue, .dark {
+    color: #fff;
+}
+.row-fluid .span9 {
+    width: 74.5%;
+}
+.c1 sup.sup-headline {
+    font-size: 16px;
+    position: relative;
+    top: -17px;
+}
+.c1 .pulloutHeadline:before {
+    content: "";
+    position: absolute;
+    top: -420px;
+    left: 0;
+    width: 100%;
+    height: 460px;
+    background: url(https://www.paypalobjects.com/webstatic/en_US/mktg/wright/buy_onwebsites/buy_onwebsites_devices2.png) center center no-repeat;
+    background-size: contain;
+}
+
+
+.panel {
+    padding: 90px 0;
+    min-height: 400px;
+    max-height: 300px;
+}
+.panel.row-fluid [class*=span]:last-child:not(.btn) {
+    padding-right: 0;
+}
+.row-fluid .span12 {
+    width: 100%;
+}
+.large{
+    font-size: 28px;
+    font-size: 2rem;
+    line-height: 1.25em;
+    letter-spacing: .01em;
+    color: #2c2e2f;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;    font-family: pp-sans-big-light,Helvetica Neue,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.25;
+}
+.closing-cta {
+    width: 30%;
+    margin-top: 28px;
+    color: white;
+}
+.btn {
+    border-radius: 25px;
+    font-size: 15px;
+    font-size: 1.07142857rem;
+    line-height: 1.5;
+    background: #0070ba;
+    padding: 13px 30px 15px;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.btn, .btn:hover{
+    color: #fff !important;
+}

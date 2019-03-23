@@ -1,0 +1,70 @@
+.outerBanner2{
+    width: 100%;
+    height: 450px;
+}
+.banner2{
+    background-position: center center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url(https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/for-you/transfer-money/send-money/hero-send_money.jpg);
+    background-size: cover;
+    transition: all 1s linear 0s;
+    
+    z-index: -2;
+    position: absolute;
+/* top: -80px; */
+}
+.banner2{
+    height: 500px;
+}
+.bannerBlock2{
+    height: 550px;
+    margin: auto;
+    color: white;
+
+}
+.bannerHeading2{
+    font-size: 40px;
+    font-weight: normal;
+    text-shadow: 2px 2px 3px black;
+    height: 60px;
+    position: relative;
+    top: 120px;
+}
+.bannerPara2{
+    text-shadow: 2px 2px 3px black;
+    letter-spacing: 1px;
+    position: relative;
+    top: 120px;
+    font-size: 20px;
+    width: 700px
+}
+.btnSendMoney2{
+    position: relative;
+    top: 120px;
+    padding: 10px 100px;
+    border-radius: 25px;
+    background-color: #0070ba;
+    border: none;
+    color: white;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.bannerBottom2{
+    height: 80px;
+    width: 300px;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 2px 2px 3px black;
+    margin-top: 10px;
+    font-size: 14px;
+    position: relative;
+    top: 125px;
+    left: 20px;
+}
+.content2{
+    margin: auto;
+}

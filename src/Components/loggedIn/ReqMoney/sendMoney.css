@@ -1,0 +1,52 @@
+.sendMoneyToUser{
+    height: 450px;
+    background-color: #f5f7fa;
+    min-width: 300px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.headingOfSendMoney{
+    color: #333333;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    min-width: 300px;
+    padding-top: 30px;
+        font-size: 1.875rem;
+        line-height: 1.4;
+        font-weight: 300;
+        text-transform: none;
+        font-family: 'PayPal-Sans-Big', sans-serif;
+    
+}
+.paraOfSendMoney{
+    position: relative;
+    top: 10px;
+    min-width: 300px;
+    max-width: 700px;
+    padding: 5px 30px 5px 30px;
+    margin-bottom: 1em;
+    font-size: 0.8571428571428572em;
+    font-size: 0.9375rem;
+    line-height: 1.4666666666666666em;
+    text-align: center;
+    color: #333333;
+    margin: auto
+}
+.emailToSendMone{
+    width: 350px;
+    position: relative;
+    top: 20px;
+    padding: 10px 15px;
+    border: 1px solid #9da3a6;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.emailToSendMone:focus{
+    border: 1px solid #009cde;
+}
+.btnToSendMoney{
+    padding: 10px 50px;
+    position: relative;
+}

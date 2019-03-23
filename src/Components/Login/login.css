@@ -1,0 +1,252 @@
+.body{
+    background-image: url(http://yesofcorsa.com/wp-content/uploads/2017/01/4K-Lights-Wallpaper.jpg);
+    z-index: 1;
+    position: relative;
+    height: 700px;
+    top: -80px;
+    box-shadow: 0px 5px 5px 3px #ccc;
+}
+.troubleLogin{
+    text-align: center;
+
+} 
+.imgLogin {
+        position: absolute;
+        z-index: -1;
+        height: 600px;
+    }
+
+
+.contentContainerBordered {
+    margin: 120px auto 0;
+    padding: 42px 42px 36px;
+    border: 1px solid #eaeced;
+    overflow: hidden;
+}
+.paypal-logo-long {
+    background:  url(https://www.paypalobjects.com/images/shared/paypal-logo-129x32.svg) no-repeat;
+    background-size: auto 28px;
+    width: 129px;
+    height: 32px;
+    display: block;
+}
+.paypal-logo {
+    margin: 0 auto 20px;
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.headerText {
+    margin-top: 20px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 24px;
+    font-family: HelveticaNeue-Light,"Helvetica Neue Light",HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.accessAid {
+    position: absolute!important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px,1px,1px,1px);
+    padding: 0!important;
+    border: 0!important;
+    height: 1px!important;
+    width: 1px!important;
+    overflow: hidden;
+}
+.subHeaderText {
+    margin: 0 0 30px;
+    color: #6c7378;
+    text-align: center;
+    font-size: 14px;
+}
+
+.hide {
+    display: none!important;
+}
+.notifications {
+    outline: 0;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.hide {
+    display: none!important;
+}
+.notifications .notification.notification-warning {
+    background-color: #fffcf7;
+    background-position: 12px -188px;
+    background-position: left 12px top -188px;
+    border-color: #f8981f;
+}
+
+.notifications .notification {
+    margin: 0;
+    padding: 15px 15px 15px 44px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    text-align: left;
+    font-size: 1em;
+    background: url(https://www.paypalobjects.com/images/shared/icon_alert_sprite-2x.png) no-repeat;
+    background-size: 20px;
+}
+.maskable {
+    position: relative;
+}
+input[type="hidden" i] {
+    display: none;
+}
+input[type="hidden" i], input[type="image" i], input[type="file" i] {
+    -webkit-appearance: initial;
+    background-color: initial;
+    cursor: default;
+    padding: initial;
+    border: initial;
+}
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+@media(max-width: 420px){
+    .loginForm{
+        width:300px;
+
+    }
+    .f1{
+        width: 200px !important;
+    }
+}
+@media(max-width: 680px){
+    .loginForm{
+        width:400px;
+        
+    }
+    .f1{
+        width: 300px !important;
+    }
+}
+.loginForm{
+
+    height: 500px;
+    min-width: 300px;
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 5px;
+    position: relative;
+    top: 100px;
+    background-color: white;
+}
+.loginOuter{
+    height: 500px;
+}
+.paypal-logo-long {
+    background: transparent url(https://www.paypalobjects.com/images/shared/paypal-logo-129x32.svg) top center no-repeat;
+    background-size: auto 28px;
+    width: 129px;
+    height: 32px;
+    display: block;
+
+}
+.paypal-logo {
+   position: relative;
+   top: 30px;
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.f1{
+    padding: 0 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 15px;
+    max-width: 390px ;
+    min-width: 200px !important;
+    height: 50px;
+    font-size: 20px;
+    margin: auto;
+}
+.f1:active{
+    border: 1px solid rgb(102, 102, 148)
+}
+.f1:hover{
+    text-align: left;
+}
+.f1::placeholder{
+    position: relative;
+    left: 20px;
+    color: gray;
+    font-size: 16px
+}
+.formOuter{
+    text-align: center;
+    margin-top: 50px;
+    height: 300px;
+
+}
+.button, .button:link, .button:visited, .button {
+    max-width: 390px;
+    min-width: 200px;
+    position: relative;
+    
+    top: 20px;    
+    min-height: 44px;
+    padding: 0;
+    border: 0;
+    display: block;
+    background-color: #0070ba;
+    box-shadow: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    appearance: none;
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 700;
+    font-family: HelveticaNeue-Medium,"Helvetica Neue Medium",HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-shadow: none;
+    text-decoration: none;
+}
+.loginSignUpSeparator {
+    width: 80%;
+    border-top: 1px solid #cbd2d6;
+    position: relative;
+    /* margin: 25px 0 10px; */
+    text-align: center;
+    margin: 25px auto;
+}
+.textInSeparator {
+    background-color: #fff;
+    padding: 0 .5em;
+    position: relative;
+    color: #6c7378;
+    top: -.7em;
+} 
+.actions{
+    height: 80px;
+    position: relative;
+    margin-left: -70px;
+}
+.button.secondary, .button:link.secondary, .button:visited.secondary, .button.secondary {
+    background-color: #E1E7EB;
+    color: #2C2E2F;
+}
+.button, .button:link, .button:visited {
+    padding: 11px;
+    position: relative;
+    left: 32px;
+}

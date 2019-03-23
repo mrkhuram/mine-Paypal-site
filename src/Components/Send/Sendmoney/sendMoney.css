@@ -1,0 +1,133 @@
+@media (min-width: 752px){
+    
+#A52 {
+    background-image: url(https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/for-you/transfer-money/send-money/online/send-money-online-1-1x.jpg);
+}
+}
+#A62{
+    
+}
+
+@media (min-width: 752px){
+#A52, #A62, #A72 {
+    background-position: 50% 20%;
+    background-size: cover;
+}}
+
+@media (min-width: 1024px){
+.editorial2 {
+    min-height: 530px;
+}}
+@media (min-width: 752px){
+.editorial2 {
+    padding: 60px 0;
+    min-height: 500px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}}
+@media (min-width: 1152px){
+.pp-header~* {
+    position: relative;
+    top: 0;
+    transition: all .3s ease-out;
+}}
+.theme-background-color-white2 .pypl-heading2 {
+    color: #4a4a4a;
+}
+@media (min-width: 752px){
+.h2.pypl-heading2, h2.pypl-heading2 {
+    font-size: 40px;
+    /* font-size: 2.66666667rem; */
+    line-height: 1.2;
+}}
+@media (min-width: 752px){
+.text-md-left2 {
+    text-align: left!important;
+}}
+.editorial__paragraph2 {
+    padding-top: 20px;
+}
+
+@media (min-width: 752px){
+#A62 {
+    background-image: url(https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/for-you/transfer-money/send-money/online/send-money-online-2-1x.jpg);
+}
+}
+@media (min-width: 752px){
+.h2.pypl-heading2, h2.pypl-heading2 {
+    font-size: 40px;
+    /* font-size: 2.66666667rem; */
+    line-height: 1.2;
+
+}}
+.legal-notes2 {
+    font-size: 13px;
+    /* font-size: .86666667rem; */
+    line-height: 1.38461538;
+    color: #2c2e2f;
+}
+@media (min-width: 752px){
+#A72 {
+    background-image: url(https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/for-you/transfer-money/send-money/online/send-money-online-3-1x.jpg);
+}}
+.editorial2 .container {
+    width: 100%;
+}
+@media (min-width: 1152px){
+.container {
+    max-width: 1192px;
+}}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+@media (min-width: 752px)
+{.container {
+    max-width: 1023px;
+}
+}
+
+@media (min-width: 752px){
+.text-md-left2 {
+    text-align: left!important;
+}}
+@media (min-width: 752px){
+.col-md-6 {
+    width: 50%;
+}}
+.theme-background-color-white2 .pypl-heading2 {
+    color: #4a4a4a;
+    
+}
+@media (min-width: 752px){
+.h2.pypl-heading2, h2.pypl-heading2 {
+    font-size: 40px;
+    /* font-size: 2.66666667rem; */
+    line-height: 1.2;
+    /* margin-left: 100px; */
+}}
+.editorial__paragraph2 {
+    padding-top: 20px;
+}
+.editorial__container2 {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1249px;
+    
+    
+}
+.pypl-btn2:hover {
+    text-decoration: none;
+    background: #005ea6;
+    color: #fff;
+}
+.pypl-btn:hover {
+    text-decoration: none; 
+    background: #005ea6;
+    color: #fff;
+}

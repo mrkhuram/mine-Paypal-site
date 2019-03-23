@@ -1,0 +1,416 @@
+.vx_globalNav-main {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+  -webkit-transition: left 250ms, right 250ms;
+  -o-transition: left 250ms, right 250ms;
+  transition: left 250ms, right 250ms;
+}
+
+.vx_globalNav-main,
+.vx_globalNav-main_mobile {
+  padding: 0;
+  min-height: 78px;
+  max-height: 84px;
+  border-bottom: 1px solid #0070ba;
+  background-color: #0070ba;
+  background-image: linear-gradient(100deg, #0070ba, #1546a0);
+}
+.vx_globalNav-container {
+  display: table;
+  width: 100%;
+  max-width: 1024px;
+  padding: 0 1em;
+  margin: 0 auto;
+}
+a,
+a:visited {
+  color: #0070ba;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: "PayPal-Sans", sans-serif;
+}
+
+.vx_globalNav-brand_desktop {
+  margin-left: 0;
+  padding: 1.25rem 0.75rem 0 0;
+  display: table-cell;
+  vertical-align: top;
+  height: 72px;
+  position: relative;
+    top: -13px;
+}
+a {
+  background-color: transparent;
+}
+
+.vx_globalNav-brand_desktop {
+    margin-left: 0;
+    padding: 1.25rem 0.75rem 0 0;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.vx_a11yText {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.vx_a11yText,
+.screenreader-only {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+.vx_a11yText,
+.screenreader-only {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+.vx_globalNav-main_mobile,
+.vx_globalNav-secondaryNav_mobile {
+  display: none;
+}
+a,
+a:visited {
+  color: #0070ba;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: "PayPal-Sans", sans-serif;
+}
+
+a {
+  background-color: transparent;
+}
+a,
+a:visited {
+  color: #0070ba;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: "PayPal-Sans", sans-serif;
+}
+
+.vx_globalNav-link_search,
+.vx_globalNav-link_settings,
+.vx_globalNav-link_notifications,
+.vx_globalNav-link_iconOnly {
+  display: block;
+  position: relative;
+  padding: 2.1rem 0.7rem 0;
+  opacity: 0.85;
+  -webkit-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+.vx_a11yText {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.vx_a11yText,
+.screenreader-only {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+.vx_a11yText,
+.screenreader-only {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+.vx_h5 {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  font-weight: 500;
+  text-transform: none;
+  font-family: "PayPal-Sans", sans-serif;
+  letter-spacing: 0.025em;
+}
+
+.vx_text-body,
+p,
+li,
+dd,
+dt,
+label,
+input,
+textarea,
+pre,
+code {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  font-weight: 400;
+  text-transform: none;
+  font-family: "PayPal-Sans", sans-serif;
+  letter-spacing: 0.025em;
+}
+.vx_globalNav-navContainer {
+  display: table-cell;
+  vertical-align: top;
+  width: 100%;
+}
+.vx_globalNav-nav {
+  display: table;
+  width: 100%;
+}
+.vx_globalNav-nav {
+  display: table;
+  width: 100%;
+}
+ul,
+ol {
+  padding: 0;
+  margin: 0 0 0.8rem 25px;
+}
+@media(max-width: 560px){
+  .vx_globalNav-list{
+    display: none !important;
+  }
+  .welcomeMessage .vx-btn_toggleProfileStatus{
+    display: none !important;
+  }
+  .profileStatus:before, .profileStatus:after{
+    display: none;
+  }
+}
+.vx_globalNav-list li {
+  display: table-cell;
+  vertical-align: top;
+  position: relative;
+  padding: 0 0.925rem;
+  
+}
+.vx_globalNav-list li:hover{
+  border-bottom: 1px solid white
+}
+li {
+  line-height: 1.6;
+}
+
+.vx_globalNav-list a,
+.vx_globalNav-list a:visited {
+  display: inline-block;
+  text-align: center;
+  padding: 1.7em 0 0.45em;
+  opacity: 1;
+  font-size: 0.875rem;
+  font-family: PayPal-Sans-Big, sans-serif;
+  font-style: normal;
+  letter-spacing: 0.025rem;
+  text-decoration: none;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+.vx_globalNav-list_secondary {
+  margin: 0;
+  text-align: right;
+  list-style: none;
+  white-space: nowrap;
+  
+}
+
+
+.vx_globalNav-list,
+.vx_globalNav-list_secondary {
+  display: table-cell;
+  vertical-align: top;
+  list-style: none;
+}
+.vx_globalNav-list_secondary li {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  text-align: left;
+
+}
+.vx_globalNav-link_notifications.vx_globalNav-svgIcon {
+  padding-top: 1.4rem;
+}
+@media (max-height: 450px) {
+  .cw_notifications-container {
+    height: 75vh;
+  }
+}
+@media (max-height: 720px) {
+  .cw_notifications-container {
+    height: 85vh;
+  }
+  .cw_notifications-container {
+    height: 660px;
+  }
+}
+.cw_popover-container {
+  position: absolute;
+  display: none;
+  border-radius: 0.4em;
+  width: 322px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+  background: #f5f7fa;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+  z-index: 1600;
+}
+
+.cw_tab-list {
+    margin: 0;
+    padding: 15px;
+    display: flex;
+}
+.cw_tab_selected {
+    background: #0070ba;
+    color: #fff;
+    font-weight: 600;
+}
+
+.cw_tab_notifications {
+    border-radius: 5px 0 0 5px;
+}
+.cw_tab {
+    font-size: 0.8125rem;
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #cbd2d6;
+    color: #6c7378;
+    width: 50%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.cw_tab span {
+    pointer-events: none;
+}
+.cw_tab-list-shadow {
+    display: none;
+    height: 5px;
+    margin: -5px 0 .25em 0;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.35);
+}
+.cw_notifications-container .cw_popover-body {
+    height: calc(100% - 80px);
+    padding: 0;
+}
+
+.cw_popover-header, .cw_popover-body, .cw_popover-footer {
+    white-space: normal;
+}
+.cw_popover-body {
+    padding: 1em;
+    max-height: 100%;
+    overflow-y: auto;
+}
+.cw_panel_selected {
+    display: block;
+}
+
+.cw_panel {
+    display: none;
+    padding: 0 1em 1em;
+}
+.cw_panel {
+    margin: 0;
+}
+.vx_globalNav-list_secondary li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    text-align: left;
+}
+
+.cw_notification {
+    font-size: 0.8125rem;
+    list-style-type: none;
+    border: 1px solid #cbd2d6;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background: #fff;
+    width: 100%;
+}
+.vx_globalNav-link_search, .vx_globalNav-link_settings, .vx_globalNav-link_notifications, .vx_globalNav-link_iconOnly {
+    display: block;
+    position: relative;
+    padding: 2.1rem 0.7rem 0;
+    opacity: 0.85;
+    -webkit-transition: opacity .3s;
+    -o-transition: opacity .3s;
+    transition: opacity .3s;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+.vx_globalNav-list_secondary li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    text-align: left;
+}
+
+.vx_globalNav-listItem_logout {
+    padding: 1.45rem 0 0 0.75rem;
+}
+a.vx_globalNav-link_logout, a.vx_globalNav-link_logout:visited {
+    font-family: PayPal-Sans-Big,sans-serif;
+    border-bottom: 1px solid transparent;
+    text-align: center;
+    font-size: 0.75rem;
+    border-radius: 0;
+    font-weight: 400;
+    letter-spacing: 0.025rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: 1;
+    padding: 0;
+    min-width: initial;
+    padding-bottom: 0.45em;
+    -webkit-transition: border-bottom .3s;
+    
+    transition: border-bottom .3s;
+}
+.vx_globalNav-link_logout:hover{
+    border-bottom: 1px solid white;
+}

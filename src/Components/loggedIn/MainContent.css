@@ -1,0 +1,234 @@
+.mainBody {
+  background-color: #f5f7fa;
+  position: relative;
+  z-index: 1;
+}
+.summarySection {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.summarySection > .row {
+  margin: 0;
+}
+@media (min-width: 768px) {
+  .col-sm-4 {
+    width: 33.33333333%;
+  }
+}
+
+.txnDelayMessage_mobile {
+  display: none;
+}
+
+.limits-msg_warning,
+.txnDelayMessage,
+.xoom-transactionHistoryMsg_info {
+  margin: 30px 0 -10px;
+  border-color: #0070ba;
+  color: #0070ba;
+}
+.twbs_alert {
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+@media (min-width: 768px) {
+  .vx_alert {
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-radius: 5px;
+  }
+}
+.vx_alert-help {
+  border-color: #009cde;
+  color: #009cde;
+}
+.vx_alert,
+.vx_alert_inline {
+  display: table;
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 1rem;
+  border: 1px solid #9da3a6;
+  border-left-width: 0;
+  border-right-width: 0;
+  color: #9da3a6;
+}
+.hidden {
+  display: none !important;
+}
+.twbs_alert > p,
+.twbs_alert > ul {
+  margin-bottom: 0;
+}
+
+.vx_alert-text {
+  margin: 0 0 0 2.5em;
+  color: #2c2e2f;
+  display: table-cell;
+  width: 100%;
+}
+.fiModule-container {
+  border: 1px solid #e0e0e0;
+  margin-top: 2em;
+  padding: 12px 20px 20px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: none;
+}
+.vx_text-5 {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  font-weight: 500;
+  text-transform: none;
+  font-family: "PayPal-Sans", sans-serif;
+  letter-spacing: 0.025em;
+}
+.fiModule-title {
+  padding-left: 0;
+  margin: 0;
+}
+.fiModule-title-header {
+  padding-left: 0;
+  color: #2c2e2f;
+}
+
+@media (min-width: 992px) {
+  .col-md-6 {
+    width: 50%;
+  }
+}
+
+.fiModule-title-link {
+  text-align: right;
+}
+
+@media (min-width: 992px) {
+  .col-md-6 {
+    width: 50%;
+  }
+}
+
+.fiModule-icon-arrow {
+    display: inline-block;
+    position: relative;
+    left: 2px;
+}
+.fiModule-icon-arrow:before {
+    font-size: 1.3rem;
+    line-height: 0;
+    color: #0070ba;
+    text-decoration: none;
+}
+
+.icon-arrow-right-half-small:before {
+    content: "\e012";
+}
+.icon-arrow-right-half-small:before {
+    content: "\e012";
+}
+.fiModule-currency_text {
+    margin-bottom: 10px;
+}
+
+.fiModule-currency-container {
+    margin-top: 8px;
+}
+.balanceNumeral, .creditNumeral {
+    color: #2c2e2f;
+}
+.balanceNumeral .numeralLabel, .creditNumeral .numeralLabel {
+    white-space: pre-line;
+    color: #6c7378;
+}
+
+.balanceModule-zeroBalanceText {
+    padding-top: 0.5em;
+    color: #2c2e2f;
+    display: block;
+}
+.vx_text-body_secondary {
+    font-size: 0.8125rem;
+    line-height: 1.84615385;
+    font-weight: 400;
+    text-transform: none;
+    font-family: 'PayPal-Sans', sans-serif;
+    letter-spacing: 0.025em;
+}
+.fiModule-list {
+    width: 100%;
+    margin: 0;
+    list-style-type: none;
+}
+.dividedCellLeft {
+    padding-right: 2.56410256%;
+    padding-right: 10px;
+}
+
+.vx_text-body_secondary {
+    font-size: 0.8125rem;
+    line-height: 1.84615385;
+    font-weight: 400;
+    text-transform: none;
+    font-family: 'PayPal-Sans', sans-serif;
+    letter-spacing: 0.025em;
+}
+.fiModule-ctaText {
+    margin: 0.9em 0 0;
+    color: #2c2e2f;
+}
+.fiModule-text-noFi {
+    margin-bottom: 16px;
+    display: inline-block;
+}
+.summarySection .activityModule {
+    margin-top: 2em;
+}
+
+.activityModule {
+    max-width: 1024px;
+    margin: 1em auto 2em;
+    padding: 1.25em 1em 1.5em;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+.activityModule .moduleHeader {
+    margin-top: 0;
+    border: 0;
+    padding-bottom: 0;
+}
+
+.moduleHeader {
+    margin-bottom: 16px;
+    margin-top: 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #6c7378;
+    color: #2c2e2f;
+}
+.moduleHeaderLink:visited {
+    color: #2c2e2f;
+}
+/* .moduleHeaderLink:after {
+    width: 10px;
+    height: 10px;
+    content: '';
+    position: absolute;
+    top: 5px;
+    right: 3px;
+    border-top: 2px solid #2c2e2f;
+    border-right: 2px solid #2c2e2f;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+} */
+.footerLink {
+    text-align: center;
+    line-height: 3em;
+}

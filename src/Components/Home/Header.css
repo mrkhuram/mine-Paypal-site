@@ -1,0 +1,246 @@
+.headerOut{
+    height: 78px;    
+    background-color: rgba(0, 0, 0, .4);
+    margin-top: 0px;
+    border-bottom: 0.5px white solid;
+    width: 100%;
+    z-index: 3;
+
+}
+.headerLeft{
+    width: 100%;
+    
+}
+.logo{
+    height: 55px;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    left: 90px;
+}
+
+.li{
+    text-align: center;
+}
+
+
+.li li{
+    color: white;
+    font-size: 14px;
+    position: relative;
+    top: 13px;
+    cursor: pointer;
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 20px;
+    font-family: "pp-sans-small-regular",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.li1:hover{
+    border-bottom: 3px solid white;
+}
+.li2:hover{
+    border-bottom: 3px solid white;
+}
+.li3:hover{
+    border-bottom: 3px solid white;
+}
+.li4:hover{
+
+    border-bottom: 3px solid white;
+}
+
+@media(max-width: 768px){
+    .buttons{
+        float: right;
+        /* top: -30px !important; */
+        /* left: 40% */
+    } 
+    .logo{
+        left: 30px;
+    }
+    .btnSignup{
+        display: hide !important;
+    }
+    .headerLeft{
+        margin-left: 20px;
+    }
+
+}
+.buttons{
+position: relative;
+top: 20px;
+}
+
+.btnLogin{
+    padding: 11px 22px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white !important;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.btnSignup{
+    padding: 11px 22px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.btnSignup:hover{
+    background-color: rgb(240, 240, 240);
+
+}
+.personalExpand{
+    height: 200px;
+    background-color: #009cde;
+    background-image: radial-gradient(circle farthest-side at center bottom, #009cde, #003087 125%);
+    opacity: .95;
+    border-right: 1px solid rgba(255,255,255,0.3);
+    width: 100%;
+    display: none;
+    position: relative;
+    top: 14px;    
+    z-index: 2;
+}
+.xClose{
+    color: white;
+    margin-left: 45px;
+    cursor: pointer;
+}
+.personalInner{
+    margin: auto;
+
+}
+
+.personalInner li{
+    display: inline-block;
+    list-style-type: none;
+}
+.paypalWorks{
+    width: 300px;
+    padding-top: 10px;
+    margin-left: 20px;
+
+}
+.paypalWorks:hover{
+    text-decoration: underline;
+    color: white;
+}
+.paypalWorks h6{
+    font-size: 13px;
+    color: white;
+    margin-top: 10px;
+    font-family: inherit;
+}
+.paypalWorks p{
+    font-size: 11px;
+    color: white;
+    font-family: inherit;
+    margin-top: -5px;
+}
+
+.credit{
+    width: 250px;
+    margin-left: 30px;
+
+}
+.credit:hover{
+    text-decoration: underline;
+    color: white;
+}
+.credit h6{
+    font-size: 13px;
+    color: white;
+    margin-top: 10px;
+    font-family: inherit;
+}
+.credit p{
+    font-size: 11px;
+    color: white;
+    font-family: inherit;
+    margin-top: -5px;
+}
+.manage{
+    width: 250px;
+    margin-left: 60px;
+
+}
+.manage:hover{
+    text-decoration: underline;
+    color: white;
+}
+.manage h6{
+    font-size: 13px;
+    color: white;
+    margin-top: 10px;
+    font-family: inherit;
+}
+.manage p{
+    font-size: 11px;
+    color: white;
+    font-family: inherit;
+    margin-top: -5px;
+}
+
+.Check{
+    width: 300px;
+    margin-left: 20px;
+
+}
+.Check:hover{
+    text-decoration: underline;
+    color: white;
+}
+.Check h6{
+    font-size: 13px;
+    color: white;
+    margin-top: 10px;
+    font-family: inherit;
+}
+.Check p{
+    font-size: 11px;
+    color: white;
+    font-family: inherit;
+    margin-top: -5px;
+}
+@media(max-width: 420px ){
+    .li{
+        display: none; 
+    }
+    .headerLeft{
+        position: absolute;
+        left: -100px;
+        
+
+    }
+
+    .buttons{
+        margin-bottom: 10px;
+        text-align: right;
+    }
+}
+@media(max-width: 992px){
+    .li{
+        display: none
+    }
+}
+.personalLink{
+    text-decoration: none;
+    color: white !important;
+    height: 62px;
+    
+}
+.personalLink:hover{
+    color: white;
+    text-decoration: none;
+    height: 70px;
+}

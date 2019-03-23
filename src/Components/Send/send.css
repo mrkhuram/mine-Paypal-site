@@ -1,0 +1,1333 @@
+
+.in-page-anchors {
+    height: 72px;
+
+}
+
+.in-page-anchors__nav {
+    height: 71px
+}
+
+.in-page-anchors__nav--sticky {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3
+}
+
+.in-page-anchors__container {
+    height: inherit;
+    margin: 0 auto
+}
+
+@media (min-width:1024px) {
+    .in-page-anchors__container {
+        max-width: 1192px;
+        padding-left: 48px;
+        padding-right: 48px
+    }
+}
+
+.in-page-anchors__flex-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    height: inherit;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.in-page-anchors__flex-wrapper--button-left {
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse
+}
+
+.in-page-anchors hr {
+    position: relative
+}
+
+.in-page-anchors__dropdown-button {
+    background: 0 0;
+    border: 0;
+    height: 30px;
+    left: 24px;
+    position: relative;
+    top: 22px;
+    transition: transform .3s ease-out;
+    width: 30px
+}
+
+@media (min-width:576px) {
+    .in-page-anchors__dropdown-button {
+        left: 36px
+    }
+}
+
+.in-page-anchors__dropdown-button:focus {
+    outline: 0
+}
+
+.in-page-anchors__dropdown-button::after {
+    content: '';
+    text-indent: -999px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    border: 1px solid #cbd2d6;
+    border-top: 0;
+    border-left: 0;
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    transition: all .3s ease-out;
+    overflow: hidden;
+    border-width: 2px;
+    height: 20px;
+    left: 6px;
+    top: 0;
+    transition: rotate .3s ease-out;
+    width: 20px
+}
+
+.in-page-anchors__dropdown-button__text {
+    display: inline-block;
+    height: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 0
+}
+
+.in-page-anchors__dropdown-button__label {
+    font-size: 20px;
+    font-size: 1.33333333rem;
+    line-height: 1.5;
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+    left: 44px;
+    position: relative;
+    top: 23px
+}
+
+@media (min-width:576px) {
+    .in-page-anchors__dropdown-button__label {
+        left: 56px
+    }
+}
+
+.in-page-anchors__dropdown-button--show-x {
+    background-image: url(./transfer-money/send-money/send-money-2-1x.jpg);
+    background-size: 28px;
+
+    background-repeat: no-repeat;
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.in-page-anchors__dropdown-button--show-x::after {
+    border: none
+}
+
+.in-page-anchors__cta {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    max-height: 48px;
+    min-width: 234px;
+    right: 20px;
+    position: absolute
+}
+
+@media (min-width:1024px) {
+    .in-page-anchors__cta {
+        position: relative;
+        right: initial
+    }
+}
+
+.no-flexbox .in-page-anchors__cta {
+    bottom: 20px;
+    float: right;
+    z-index: 1
+}
+
+.js .in-page-anchors__cta {
+    max-height: none
+}
+
+.in-page-anchors__link-list {
+    animation: 1s linear 0s 1 remove-box-shadow;
+    background-color: #fff;
+    color: #0070ba;
+    margin: 0;
+    max-height: 0;
+    overflow-y: hidden;
+    position: relative;
+    top: 35px;
+    transition: max-height .3s ease-in-out;
+    width: 100%;
+    z-index: 1
+}
+
+.no-flexbox .in-page-anchors__link-list {
+    position: relative;
+    top: 36px
+}
+
+@media (min-width:1024px) {
+    .in-page-anchors__link-list {
+        -ms-flex-align: center;
+        align-items: center;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        left: 0;
+        max-height: 800px;
+        padding-left: 0;
+        position: relative;
+        top: 0;
+        width: auto
+    }
+}
+
+.in-page-anchors__link-list--text-right {
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+
+.in-page-anchors__link-list--slide-down {
+    animation: none;
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, .1);
+    max-height: 800px
+}
+
+@media (min-width:1024px) {
+    .in-page-anchors__link-list--slide-down {
+        box-shadow: none
+    }
+}
+
+.in-page-anchors__links-container {
+    display: inline-block;
+    position: relative;
+    width: 100%
+}
+
+.no-webgl .in-page-anchors__links-container {
+    width: auto
+}
+
+@media (min-width:1024px) {
+    .in-page-anchors__links-container {
+        display: -ms-inline-flexbox;
+        display: inline-flex
+    }
+}
+
+.in-page-anchors__links-container--text-right {
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+
+.in-page-anchors__li {
+    list-style-type: none;
+    padding-left: 24px
+}
+
+@media (min-width:576px) {
+    .in-page-anchors__li {
+        padding-left: 16px
+    }
+}
+
+@media (min-width:1024px) {
+    .in-page-anchors__li {
+        margin-right: 20px;
+        padding-left: 0
+    }
+    .no-flexbox .in-page-anchors__li {
+        display: inline-block
+    }
+}
+
+.in-page-anchors__li:last-child {
+    padding-bottom: 20px
+}
+
+@media (min-width:1024px) {
+    .in-page-anchors__li:last-child {
+        padding-bottom: 0
+    }
+}
+
+.in-page-anchors__link {
+    color: #2c2e2f;
+    display: block;
+    padding: 9px 0 9px 0
+}
+
+@media (min-width:1024px) {
+    .in-page-anchors__link {
+        padding: 0 9px
+    }
+}
+
+.in-page-anchors__link:active,
+.in-page-anchors__link:focus {
+    color: #2c2e2f;
+    text-decoration: none
+}
+
+.in-page-anchors__link:hover {
+    color: #2c2e2f
+}
+
+.in-page-anchors__link--underline:focus {
+    text-decoration: underline
+}
+
+.in-page-anchors__link--selected {
+    color: #0070ba
+}
+
+.in-page-anchors__link--selected:focus,
+.in-page-anchors__link--selected:hover {
+    color: #0070ba;
+    text-decoration: none
+}
+.theme-background-color-white {
+    background-color: #fff
+}
+.divider__color {
+    border-bottom: 1px solid #cbd2d6
+}
+
+
+.theme-background-color-white {
+    background-color: #fff
+}
+
+.theme-background-color-white .pypl-heading {
+    color: #4a4a4a
+}
+
+.theme-background-color-white .mpp-data-point {
+    color: #0070ba;
+    box-shadow: 0 0 0 1px #0070ba, 0 0 0 1px #0070ba
+}
+
+.no-boxshadow .theme-background-color-white .mpp-data-point {
+    border: 1px solid #0070ba;
+}
+
+.panels {
+    padding: 40px 0
+}
+
+.panels__header>div {
+    padding-bottom: 40px;
+    margin: auto;
+}
+
+.panels__header>div:empty {
+    display: none
+}
+
+.panels__subheadline {
+    padding-top: 0
+}
+
+.panels__headline+.panels__subheadline {
+    padding-top: 20px
+}
+
+.panels__panel {
+    padding-top: 30px;
+    display: flex
+}
+
+.panels .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch
+}
+
+.row:first-child .panels__panel:first-child {
+    padding-top: 0
+}
+
+.panels__footer {
+    padding-top: 30px
+}
+
+@media (min-width:752px) {
+    .panels__panel {
+        padding-top: 0
+    }
+    .panels__panel:nth-child(2)~.panels__panel.col-md-6 {
+        padding-top: 30px
+    }
+    .panels .row+.row {
+        padding-top: 30px
+    }
+    .no-flexboxlegacy .col-lg-3:nth-child(4n+1),
+    .no-flexboxlegacy .col-lg-4:nth-child(3n+1),
+    .no-flexboxlegacy .col-lg-6:nth-child(2n+1),
+    .no-flexboxlegacy .col-md-4:nth-child(3n+1),
+    .no-flexboxlegacy .col-md-6:nth-child(2n+1) {
+        clear: left
+    }
+}
+
+@media (min-width:1024px) {
+    .panels {
+        padding: 60px 0
+    }
+    .panels__panel:nth-child(2)~.panels__panel.col-md-6,
+    .panels__panel:nth-child(3)~.panels__panel.col-md-4 {
+        padding-top: 0
+    }
+    .no-flexboxlegacy .col-lg-3:nth-child(4n+1),
+    .no-flexboxlegacy .col-lg-4:nth-child(3n+1),
+    .no-flexboxlegacy .col-lg-6:nth-child(2n+1),
+    .no-flexboxlegacy .col-md-4:nth-child(3n+1),
+    .no-flexboxlegacy .col-md-6:nth-child(2n+1) {
+        clear: none
+    }
+}
+
+.panels.device-image .panels__device-image {
+    display: none;
+    content: "";
+    position: absolute;
+    top: -300px;
+    left: 0;
+    width: 100%;
+    height: 460px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain
+}
+
+@media (min-width:1024px) {
+    .panels.device-image {
+        border-top: 360px solid #fff;
+        padding-top: 180px;
+        position: relative
+    }
+    .panels.device-image .panels__device-image {
+        display: block
+    }
+}
+
+.panels.center {
+    text-align: center
+}
+
+.panels.center p {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.panels.center .pypl-btn {
+    margin-left: auto;
+    margin-right: auto
+}
+.icon-panel__image {
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px
+}
+@media (min-width: 752px){
+.h2.pypl-heading, h2.pypl-heading {
+    font-size: 40px;
+    font-size: 2.66666667rem;
+    line-height: 1.2;
+}
+}
+.theme-background-image-light {
+    background-color: #f5f7fa;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+.pullout {
+    padding: 40px 0
+}
+
+.pullout__image+.pullout__headline {
+    padding-top: 30px
+}
+
+.pullout__headline+.pullout__paragraph {
+    padding-top: 20px
+}
+
+.pullout__paragraph {
+    font-size: 20px;
+
+    line-height: 1.5
+}
+
+.pullout .mpp-data-point {
+    margin: 30px 4% 0
+}
+
+.pullout__btn,
+.pullout__media-btn {
+    margin-top: 30px;
+    color: white
+}
+
+.pullout__btn--center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none
+}
+
+.pullout .pypl-btn+.pypl-btn {
+    margin-top: 20px
+}
+
+.pullout .app-badge {
+    margin-top: 30px
+}
+
+.pullout__link {
+    display: inline-block;
+    padding-top: 10px
+}
+
+.pullout__hatch-text {
+    padding-top: 10px
+}
+
+@media (min-width:576px) {
+    .pullout .mpp-data-point {
+        margin-left: 9%;
+        margin-right: 9%
+    }
+}
+
+@media (min-width:752px) {
+    .pullout {
+        padding: 60px 0
+    }
+}
+
+.no-svg .pullout {
+    min-height: 200px
+}
+@media (min-width:752px) {
+    .text-md-left {
+        text-align: left!important
+    }
+    .text-md-right {
+        text-align: right!important
+    }
+    .text-md-center {
+        text-align: center!important
+    }
+}
+
+.theme-background-image-light{
+background-image: url("https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/for-you/transfer-money/send-money/send-money-illustration-desktop.jpg"); 
+background-position: center center;
+}
+
+
+.theme-background-image-dark,
+.theme-background-image-white,
+.theme-new-money {
+    background-color: #6c7378;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff
+}
+
+.theme-background-image-dark a,
+.theme-background-image-white a,
+.theme-new-money a {
+    color: #fff
+}
+
+.theme-background-image-dark a:focus,
+.theme-background-image-dark a:hover,
+.theme-background-image-white a:focus,
+.theme-background-image-white a:hover,
+.theme-new-money a:focus,
+.theme-new-money a:hover {
+    color: #f5f7fa
+}
+
+.theme-background-image-dark a:active,
+.theme-background-image-white a:active,
+.theme-new-money a:active {
+    color: #f5f7fa
+}
+
+.theme-background-image-dark .mpp-data-point,
+.theme-background-image-white .mpp-data-point,
+.theme-new-money .mpp-data-point {
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 1px #fff
+}
+
+.no-boxshadow .theme-background-image-dark .mpp-data-point,
+.no-boxshadow .theme-background-image-white .mpp-data-point,
+.no-boxshadow .theme-new-money .mpp-data-point {
+    border: 1px solid #fff
+}
+
+.editorial {
+    background-repeat: no-repeat;
+    padding: 40px 0
+}
+
+.editorial .container {
+    width: 100%
+}
+
+.editorial__image {
+    max-width: 90%;
+    max-height: 350px
+}
+
+.editorial__paragraph {
+    padding-top: 20px
+}
+
+.editorial__hatch-text {
+    padding-top: 10px
+}
+
+.editorial__container {
+    float: none;
+    display: inline-block;
+    vertical-align: middle
+}
+
+@media (min-width:752px) {
+    .editorial {
+        padding: 60px 0;
+        min-height: 480px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center
+    }
+}
+
+@media (min-width:1024px) {
+    .editorial {
+        min-height: 530px
+    }
+}
+@media (min-width: 752px){
+#A5 {
+    background-image: url(https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/for-you/transfer-money/send-money/send-money-1-1x.jpg);
+}
+}
+
+.theme-background-color-white {
+    background-color: #fff
+}
+
+.theme-background-color-white .pypl-heading {
+    color: #4a4a4a
+}
+
+.theme-background-color-white .mpp-data-point {
+    color: #0070ba;
+    box-shadow: 0 0 0 1px #0070ba, 0 0 0 1px #0070ba
+}
+
+.no-boxshadow .theme-background-color-white .mpp-data-point {
+    border: 1px solid #0070ba
+}
+
+.theme-background-image-dark,
+.theme-background-image-white,
+.theme-new-money {
+    background-color: #6c7378;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff
+}
+
+.theme-background-image-dark a,
+.theme-background-image-white a,
+.theme-new-money a {
+    color: #fff
+}
+
+.theme-background-image-dark a:focus,
+.theme-background-image-dark a:hover,
+.theme-background-image-white a:focus,
+.theme-background-image-white a:hover,
+.theme-new-money a:focus,
+.theme-new-money a:hover {
+    color: #f5f7fa
+}
+
+.theme-background-image-dark a:active,
+.theme-background-image-white a:active,
+.theme-new-money a:active {
+    color: #f5f7fa
+}
+
+.theme-background-image-dark .mpp-data-point,
+.theme-background-image-white .mpp-data-point,
+.theme-new-money .mpp-data-point {
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 1px #fff
+}
+
+.no-boxshadow .theme-background-image-dark .mpp-data-point,
+.no-boxshadow .theme-background-image-white .mpp-data-point,
+.no-boxshadow .theme-new-money .mpp-data-point {
+    border: 1px solid #fff
+}
+
+@media (min-width:576px) {
+    .text-sm-left {
+        text-align: left!important
+    }
+    .text-sm-right {
+        text-align: right!important
+    }
+    .text-sm-center {
+        text-align: center!important
+    }
+}
+
+@media (min-width:752px) {
+    .text-md-left {
+        text-align: left!important
+    }
+    .text-md-right {
+        text-align: right!important
+    }
+    .text-md-center {
+        text-align: center!important
+    }
+}
+
+@media (min-width:1024px) {
+    .text-lg-left {
+        text-align: left!important
+    }
+    .text-lg-right {
+        text-align: right!important
+    }
+    .text-lg-center {
+        text-align: center!important
+    }
+}
+
+@media (min-width:1152px) {
+    .text-xl-left {
+        text-align: left!important
+    }
+    .text-xl-right {
+        text-align: right!important
+    }
+    .text-xl-center {
+        text-align: center!important
+    }
+}
+
+.hidden-xs-up {
+    display: none!important
+}
+
+@media (max-width:575px) {
+    .hidden-xs-down {
+        display: none!important
+    }
+}
+
+@media (min-width:576px) {
+    .hidden-sm-up {
+        display: none!important
+    }
+}
+
+@media (max-width:751px) {
+    .hidden-sm-down {
+        display: none!important
+    }
+}
+
+@media (min-width:752px) {
+    .hidden-md-up {
+        display: none!important
+    }
+}
+
+@media (max-width:1023px) {
+    .hidden-md-down {
+        display: none!important
+    }
+}
+
+@media (min-width:1024px) {
+    .hidden-lg-up {
+        display: none!important
+    }
+}
+
+@media (max-width:1151px) {
+    .hidden-lg-down {
+        display: none!important
+    }
+}
+
+@media (min-width:1152px) {
+    .hidden-xl-up {
+        display: none!important
+    }
+}
+@media (min-width: 752px){
+.h2.pypl-heading, h2.pypl-heading {
+    font-size: 40px;
+    font-size: 2.66666667rem;
+    line-height: 1.2;
+}
+}
+.theme-background-color-white .pypl-heading {
+    color: #4a4a4a;
+}
+@media (min-width: 752px){
+.h2.pypl-heading, h2.pypl-heading {
+    font-size: 40px;
+
+    line-height: 1.2;
+}
+}
+@media (min-width: 752px){
+#A6 {
+    background-image: url(https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/for-you/transfer-money/send-money/send-money-2-1x.jpg);
+}
+}
+@media (min-width: 752px){
+
+#A5, #A6, #A7 {
+    background-position: 50% 20%;
+    background-size: cover;
+}
+}
+@media (min-width: 752px){
+#A7 {
+    background-image: url(https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/for-you/transfer-money/send-money/send-money-3-1x.jpg);
+}
+}
+.legal-notes {
+    font-size: 13px;
+    font-size: .86666667rem;
+    line-height: 1.38461538;
+    color: white;
+}
+
+.theme-background-color-blue {
+    background-color: #009cde;
+    background-image: radial-gradient(circle farthest-side at center bottom, #009cde, #003087 125%);
+    color: #fff
+}
+
+.theme-background-color-blue a {
+    color: #fff
+}
+
+.theme-background-color-blue a:focus,
+.theme-background-color-blue a:hover {
+    color: #f5f7fa
+}
+
+.theme-background-color-blue a:active {
+    color: #f5f7fa
+}
+
+.theme-background-color-blue .mpp-data-point {
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 1px #fff
+}
+
+.no-boxshadow .theme-background-color-blue .mpp-data-point {
+    border: 1px solid #fff
+}
+
+.theme-background-color-blue {
+    background-color: #009cde;
+    background-image: radial-gradient(circle farthest-side at center bottom, #009cde, #003087 125%);
+    color: #fff
+}
+
+.theme-background-color-blue a {
+    color: #fff
+}
+
+.theme-background-color-blue a:focus,
+.theme-background-color-blue a:hover {
+    color: #f5f7fa
+}
+
+.theme-background-color-blue a:active {
+    color: #f5f7fa
+}
+
+.theme-background-color-blue .mpp-data-point {
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 1px #fff
+}
+
+.no-boxshadow .theme-background-color-blue .mpp-data-point {
+    border: 1px solid #fff
+}
+
+.theme-background-color-blue .accordion__item {
+    border-top: 1px solid #fff
+}
+
+.theme-background-color-blue .accordion__item:last-child {
+    border-bottom: 1px solid #fff
+}
+
+.theme-background-color-blue .accordion__header::after {
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff
+}
+.theme-background-color-blue a {
+    color: #fff;
+}
+.panels.center p {
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 752px){
+.h2.pypl-heading, h2.pypl-heading {
+    font-size: 40px;
+
+    line-height: 1.2;
+}}
+.text-xs-center {
+    text-align: center!important;
+}
+.panels.center {
+    text-align: center;
+}
+.h4.pypl-heading, h4.pypl-heading {
+    font-size: 20px;
+    line-height: 1.5;
+}
+.panels.center p {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+}
+.no-image-panel, .social-innovation-panel {
+    display: flex;
+    flex-wrap: wrap;
+    word-break: break-word;
+    width: 100%;
+}
+.panels.center {
+    text-align: center;
+}
+.icon-panel__top,
+.image-panel__top,
+.no-image-panel__top,
+.social-innovation-panel__top {
+    width: 100%
+}
+.theme-background-color-light .pypl-heading {
+    color: #4a4a4a
+}
+.theme-background-color-white .pypl-heading {
+    color: #4a4a4a
+}
+
+
+.h1.pypl-heading,
+h1.pypl-heading {
+    font-size: 40px;
+    font-size: 2.66666667rem;
+    line-height: 1.2
+}
+
+.h2.pypl-heading,
+h2.pypl-heading {
+    font-size: 30px;
+    font-size: 2rem;
+    line-height: 1.2
+}
+
+.h3.pypl-heading,
+h3.pypl-heading {
+    font-size: 20px;
+    font-size: 1.33333333rem;
+    line-height: 1.5
+}
+
+.h4.pypl-heading,
+h4.pypl-heading {
+    font-size: 20px;
+    font-size: 1.33333333rem;
+    line-height: 1.5
+}
+
+.h5.pypl-heading,
+h5.pypl-heading {
+    font-size: 15px;
+    font-size: 1rem;
+    line-height: 1.6
+}
+
+.h6.pypl-heading,
+h6.pypl-heading {
+    font-size: 15px;
+    font-size: 1rem;
+    line-height: 1.6
+}
+
+@media (min-width:752px) {
+    .h1.pypl-heading,
+    h1.pypl-heading {
+        font-size: 60px;
+        font-size: 4rem;
+        line-height: 1.2
+    }
+    .h2.pypl-heading,
+    h2.pypl-heading {
+        font-size: 40px;
+        font-size: 2.66666667rem;
+        line-height: 1.2
+    }
+    .h3.pypl-heading,
+    h3.pypl-heading {
+        font-size: 30px;
+        font-size: 2rem;
+        line-height: 1.2
+    }
+}
+.theme-background-color-light .pypl-heading {
+    color: #4a4a4a
+}
+.theme-background-color-white .pypl-heading {
+    color: #4a4a4a
+}
+
+.h1.pypl-heading,
+h1.pypl-heading {
+    font-size: 40px;
+    /* font-size: 2.66666667rem; */
+    line-height: 1.2
+}
+
+.h2.pypl-heading,
+h2.pypl-heading {
+    font-size: 30px;
+    /* font-size: 2rem; */
+    line-height: 1.2
+}
+
+.h3.pypl-heading,
+h3.pypl-heading {
+    font-size: 20px;
+    /* font-size: 1.33333333rem; */
+    line-height: 1.5
+}
+
+.h4.pypl-heading,
+h4.pypl-heading {
+    font-size: 20px;
+    /* font-size: 1.33333333rem; */
+    line-height: 1.5
+}
+
+.h5.pypl-heading,
+h5.pypl-heading {
+    font-size: 15px;
+    /* font-size: 1rem; */
+    line-height: 1.6
+}
+
+.h6.pypl-heading,
+h6.pypl-heading {
+    font-size: 15px;
+    /* font-size: 1rem; */
+    line-height: 1.6
+}
+
+@media (min-width:752px) {
+    .h1.pypl-heading,
+    h1.pypl-heading {
+        font-size: 60px;
+        /* font-size: 4rem; */
+        line-height: 1.2
+    }
+    .h2.pypl-heading,
+    h2.pypl-heading {
+        font-size: 40px;
+        /* font-size: 2.66666667rem; */
+        line-height: 1.2
+    }
+    .h3.pypl-heading,
+    h3.pypl-heading {
+        font-size: 30px;
+        /* font-size: 2rem; */
+        line-height: 1.2
+    }
+}
+.panels__footer {
+    padding-top: 30px
+}
+.col-xs-12 {
+    width: 100%;
+}
+.hero-carousel.theme-background-image-light .hero-carousel__carousel .carousel__arrow {
+    border-color: #9da3a6
+}
+
+.hero-carousel.theme-background-image-light .hero-carousel__carousel .carousel__slide-counter {
+    color: #9da3a6
+}
+.theme-background-image-light {
+    background-color: #f5f7fa;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+.pp-sans-big-light {
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+    font-weight: 400
+}
+.pullout__image+.pullout__headline {
+    padding-top: 30px
+}
+
+.pullout__headline+.pullout__paragraph {
+    padding-top: 20px
+}
+#A10{
+        background-image: url(https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/for-you/transfer-money/shared/download-app.jpg);
+        background-position: left center;
+    }
+@media (min-width: 752px){
+    .text-md-left {
+        text-align: left!important;
+    }
+}
+@media (min-width: 1024px){
+
+.col-lg-8 {
+    width: 66.66667%;
+}}
+.pp-sans-big-light {
+    font-family: PayPalSansBig-Light,Helvetica Neue,Arial,sans-serif;
+    font-weight: 400;
+}
+.pullout__headline+.pullout__paragraph {
+    padding-top: 20px;
+}
+.pullout .app-badge {
+    margin-top: 30px;
+}
+.app-badge {
+    display: inline-block;
+    margin: 0 5px;
+    height: 40px;
+    width: 135px;
+    background: url(https://www.paypalobjects.com/digitalassets/c/website/marketing/global/kui/organisms/app/appstorebadges_dark_2x.png) no-repeat 0 0;
+    background-size: 135px 320px;
+}
+.app-badge2 {
+    display: inline-block;
+    margin: 0 5px;
+    height: 40px;
+    width: 135px;
+    background: url(https://www.paypalobjects.com/digitalassets/c/website/marketing/global/kui/organisms/app/appstorebadges_dark_2x.png) no-repeat 0 0;
+    background-size: 135px 320px;
+}
+.app-badge--google {
+    background-position: 0 -80px;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+.video-section__container.center-block .pypl-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none
+}
+@media (min-width: 752px){
+.pullout {
+    padding: 60px 0;
+}
+}
+@media (min-width: 1152px){
+.pp-header~* {
+    position: relative;
+    top: 0;
+    transition: all .3s ease-out;
+}
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    
+}
+@media (min-width: 752px){
+    .h2.pypl-heading, h2.pypl-heading {
+    /* font-size: 40px; */
+    font-size: 2.66666667rem;
+    line-height: 1.2;
+}
+}
+.pullout__paragraph{
+color: #2c2e2f;
+}
+.pullout__btn--center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+.pullout__btn, .pullout__media-btn {
+    margin-top: 30px;
+    color: white
+}
+.pypl-btn {
+    display: block;
+    position: relative;
+    max-width: 320px;
+    padding: 13px 24px;
+    margin-bottom: 0;
+    background: #0070ba;
+    font-size: 15px;
+    font-size: 1rem;
+    font-family: PayPalSansSmall-Regular,Helvetica Neue,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 22px;
+    -webkit-font-smoothing: antialiased;
+    color: #fff !important;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    box-sizing: border-box;
+}   
+
+.disclosure {
+    padding: 40px 0
+}
+
+.disclosure p {
+    font-size: 13px;
+    font-size: .86666667rem;
+    line-height: 1.38461538
+}
+
+.disclosure h1 {
+    font-size: 40px;
+    font-size: 2.66666667rem;
+    line-height: 1.2;
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+    font-weight: 400
+}
+
+.disclosure h2 {
+    font-size: 30px;
+    font-size: 2rem;
+    line-height: 1.2
+}
+
+.disclosure h3 {
+    font-size: 20px;
+    font-size: 1.33333333rem;
+    line-height: 1.5
+}
+
+.disclosure h4 {
+    font-size: 20px;
+    font-size: 1.33333333rem;
+    line-height: 1.5
+}
+
+.disclosure h5 {
+    font-size: 15px;
+    font-size: 1rem;
+    line-height: 1.6
+}
+
+.disclosure h6 {
+    font-size: 15px;
+    font-size: 1rem;
+    line-height: 1.6
+}
+
+.disclosure h1,
+.disclosure h2,
+.disclosure h3,
+.disclosure h4,
+.disclosure h5,
+.disclosure h6 {
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+    font-weight: 400
+}
+
+.disclosure h2,
+.disclosure h3,
+.disclosure h4,
+.disclosure h5,
+.disclosure h6 {
+    padding-top: 20px
+}
+
+.disclosure a {
+    font-family: PayPalSansSmall-Regular, Helvetica Neue, Arial, sans-serif;
+    font-weight: 700
+}
+
+.disclosure img {
+    max-width: 100%
+}
+
+@media (min-width:752px) {
+    .disclosure {
+        padding: 60px 0
+    }
+    .disclosure h1 {
+        font-size: 60px;
+        font-size: 4rem;
+        line-height: 1.2
+    }
+    .disclosure h2 {
+        font-size: 40px;
+        font-size: 2.66666667rem;
+        line-height: 1.2
+    }
+    .disclosure h3 {
+        font-size: 30px;
+        font-size: 2rem;
+        line-height: 1.2
+    }
+}
